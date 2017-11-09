@@ -25,7 +25,8 @@ export default class LoginForm extends Component {
 
 				<CardSection>
 					<Input 
-						placeholder="***"
+						secureTextEntry
+						placeholder="mdp"
 						label="Mot de passe"
 						value={this.state.password}
 						onChangeText={password => this.setState({ password })}
